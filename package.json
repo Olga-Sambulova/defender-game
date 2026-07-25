@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/olga-sambulova/defender-game#readme",
+  "bugs": {
+    "url": "https://github.com/olga-sambulova/defender-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olga-sambulova/defender-game.git"
+  },
+  "license": "ISC",
+  "author": "Olga Sambulova",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7"
+  }
+}
